@@ -12,7 +12,7 @@ This code is optimized for hardware-constrained environments and cloud setups li
 Run the following to install the exact required libraries:
 ```bash
 pip install -r requirements.txt
-
+```
 
 b. Training Instructions
 To train the model from scratch, ensure dataset_10.parquet is in the root directory. Then execute:
