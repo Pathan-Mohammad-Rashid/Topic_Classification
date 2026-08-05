@@ -14,26 +14,6 @@ Run the following to install the exact required libraries:
 pip install -r requirements.txt
 
 
-
-
-
-Here is the complete README.md formatted in a clean code block, followed by the report in clean text that you can easily copy and paste straight into Google Docs without any weird formatting issues.
-1. README.md
-# Topic Classification: Memory-Efficient Custom Deep Learning
-
-This repository contains a custom-built PyTorch deep learning pipeline designed to classify text topics from a massive 4GB (10 million rows) Parquet dataset. 
-
-Because loading 4GB of text into memory simultaneously crashes most environments, this project heavily leverages out-of-core learning and data streaming. The entire architecture was built strictly from scratch, strictly adhering to the constraint of avoiding any pre-trained models.
-
-## a. Setup Instructions
-**Environment Setup:**
-This code is optimized for hardware-constrained environments and cloud setups like Google Colab (using a T4 GPU). It requires Python 3.8+.
-
-**Dependencies Installation:**
-Run the following to install the exact required libraries:
-```bash
-pip install -r requirements.txt
-
 b. Training Instructions
 To train the model from scratch, ensure dataset_10.parquet is in the root directory. Then execute:
 python src/train.py
