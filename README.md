@@ -71,7 +71,7 @@ python src/inference.py
 To evaluate multiple samples and compute prediction confidence scores:
 
 ```bash
-python src/test_inference.py
+python experiments/test_inference.py
 ```
 
 ---
